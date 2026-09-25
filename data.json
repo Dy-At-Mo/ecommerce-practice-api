@@ -1,0 +1,118 @@
+{
+    "auth_users": [
+        {
+            "email": "dyaa@gmail.com",
+            "username": "Dyaa",
+            "passwordHash": "$2b$10$2TIyHWvHQWG2g68yOydMrOdRU0SnV3ZZ86xf.aqY/OmhGXDruMoni",
+            "role": "merchant",
+            "id": "3200531"
+        },
+        {
+            "email": "Ata@gmail.com",
+            "username": "Ata",
+            "passwordHash": "$2b$10$Qos0iuMheVZGNdGmlG5aTuFeyTkJyTDm36rBJsGSK7nRBNVQsnWn2",
+            "role": "customer",
+            "id": "299609"
+        },
+        {
+            "email": "dyatamhmd@gmail.com",
+            "username": "Dyaa Ata",
+            "passwordHash": "$2b$10$MAvSGwtQk6Sgkq598SXIgeoLgsBFAHsh9qpOGuigPCtr.R4oIjoO6",
+            "role": "customer",
+            "id": "5630403"
+        },
+        {
+            "email": "admian@gmail.com",
+            "username": "admain",
+            "passwordHash": "$2b$10$4y.Rm1RfxdYFbv45SKDa5utoYkD5BuSmqS4pFaxvJvGKkc34Bq.6.",
+            "role": "merchant",
+            "id": "7542487"
+        }
+    ],
+    "products": [
+        {
+            "name": "Laptop",
+            "description": "Gaming laptop",
+            "price": 3000,
+            "image": "https://example.com/laptop.jpg",
+            "id": "64848"
+        },
+        {
+            "name": "Mouse",
+            "description": "Gaming Mouse",
+            "price": 200,
+            "image": "https://example.com/Mouse.jpg",
+            "id": "2032379"
+        },
+        {
+            "name": "Phone",
+            "description": "Gaming Phone",
+            "price": 2000,
+            "image": "https://example.com/Phone.jpg",
+            "id": "1841837"
+        },
+        {
+            "name": "mobaile",
+            "description": "Appel mobaile.............",
+            "price": 80000,
+            "image": "https://example.com/mobaile.jpg",
+            "id": "7818717"
+        }
+    ],
+    "carts": [
+        {
+            "userId": "299609",
+            "products": [],
+            "id": "1003194"
+        },
+        {
+            "userId": "5630403",
+            "products": [],
+            "id": "3003227"
+        }
+    ],
+    "orders": [
+        {
+            "userId": "299609",
+            "products": [
+                {
+                    "id": "1841837",
+                    "name": "Phone",
+                    "description": "Gaming Phone",
+                    "price": 2000,
+                    "image": "https://example.com/Phone.jpg",
+                    "quantity": 2
+                }
+            ],
+            "total": 4000,
+            "status": "pending",
+            "createdAt": "2026-09-25T14:12:04.666Z",
+            "id": "9251882"
+        },
+        {
+            "userId": "5630403",
+            "products": [
+                {
+                    "id": "64848",
+                    "name": "Laptop",
+                    "description": "Gaming laptop",
+                    "price": 3000,
+                    "image": "https://example.com/laptop.jpg",
+                    "quantity": 2
+                },
+                {
+                    "id": "2032379",
+                    "name": "Mouse",
+                    "description": "Gaming Mouse",
+                    "price": 200,
+                    "image": "https://example.com/Mouse.jpg",
+                    "quantity": 2
+                }
+            ],
+            "total": 6400,
+            "status": "pending",
+            "createdAt": "2026-09-25T14:24:02.577Z",
+            "id": "4697951"
+        }
+    ]
+}
