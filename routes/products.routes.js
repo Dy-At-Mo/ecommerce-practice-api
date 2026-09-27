@@ -89,7 +89,7 @@ productsRouter.get("/:product_id" ,  async (req, res, next) =>{
 
        // Send response
         return res.status(200).json({
-            product,
+            data: product,
          });
     } catch (err) {
       next(err);
