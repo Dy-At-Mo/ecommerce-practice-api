@@ -22,53 +22,258 @@
             "id": "5630403"
         },
         {
-            "email": "admian@gmail.com",
-            "username": "admain",
+            "email": "admin@gmail.com",
+            "username": "admin",
             "passwordHash": "$2b$10$4y.Rm1RfxdYFbv45SKDa5utoYkD5BuSmqS4pFaxvJvGKkc34Bq.6.",
             "role": "merchant",
             "id": "7542487"
+        },
+        {
+            "email": "ahmed@gmail.com",
+            "username": "Ahmed",
+            "passwordHash": "$2b$10$Arujcex44v2pADhLfgOvVeQ8TDj2Xu3LCNl8cHvLLSu1XdMWeNmOS",
+            "role": "marchant",
+            "id": "8487308"
+        },
+        {
+            "email": "ali@gmail.com",
+            "username": "Ali",
+            "passwordHash": "$2b$10$gi4PB7W9P8dcj84HCL.DROUYPCRrgKub3iu5l3zY4ARbGSVD1asNm",
+            "role": "merchant",
+            "id": "5736951"
+        },
+        {
+            "email": "momen@gmail.com",
+            "username": "momen",
+            "passwordHash": "$2b$10$EeYh0faLLCd6F/V6SgY/oec6JAhRPm2zg68/RJHvBSr88Dy4EGexu",
+            "role": "customer",
+            "id": "1377773"
+        },
+        {
+            "email": "marco@gmail.com",
+            "username": "Marco",
+            "passwordHash": "$2b$10$ZB1VuICLCqXX1z3mQIejXOY7P2bfggMxq4eBEMfhDCdm8mvzYmJkO",
+            "role": "merchant",
+            "id": "7325716"
         }
     ],
     "products": [
         {
-            "name": "Laptop",
-            "description": "Gaming laptop",
-            "price": 3000,
-            "image": "https://example.com/laptop.jpg",
-            "id": "64848"
+            "id": "p001",
+            "name": "iPhone 15 Pro",
+            "description": "Premium smartphone with advanced camera system and titanium design.",
+            "price": 49999,
+            "image": "https://media.512pixels.net/wp-content/uploads/2023/12/iphone-15-pro-max-natural.jpg"
         },
         {
-            "name": "Mouse",
-            "description": "Gaming Mouse",
-            "price": 200,
-            "image": "https://example.com/Mouse.jpg",
-            "id": "2032379"
+            "id": "p002",
+            "name": "Samsung Galaxy S24 Ultra",
+            "description": "Flagship Android smartphone with powerful performance and stunning display.",
+            "price": 42999,
+            "image": "https://images.samsung.com/eg/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-carousel-global.jpg?imbypass=true"
         },
         {
-            "name": "Phone",
-            "description": "Gaming Phone",
-            "price": 2000,
-            "image": "https://example.com/Phone.jpg",
-            "id": "1841837"
+            "id": "p003",
+            "name": "MacBook Air M3",
+            "description": "Lightweight laptop powered by Apple M3 chip with excellent battery life.",
+            "price": 68999,
+            "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25356162/DSC_0504.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=1080"
         },
         {
-            "name": "mobaile",
-            "description": "Appel mobaile.............",
-            "price": 80000,
-            "image": "https://example.com/mobaile.jpg",
-            "id": "7818717"
+            "id": "p004",
+            "name": "Dell XPS 15",
+            "description": "Premium performance laptop with a high-resolution display and powerful processor.",
+            "price": 55999,
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1440/810/dellxps152016.jpg?ve=1&tl=1"
+        },
+        {
+            "id": "p005",
+            "name": "Sony WH-1000XM5",
+            "description": "Wireless noise-cancelling headphones with immersive premium sound.",
+            "price": 18999,
+            "image": "https://i.ebayimg.com/images/g/r64AAeSwk3lqf~mT/s-l1600.webp"
+        },
+        {
+            "id": "p006",
+            "name": "AirPods Pro 2",
+            "description": "Wireless earbuds with active noise cancellation and spatial audio.",
+            "price": 11999,
+            "image": "https://sm.pcmag.com/t/pcmag_me/review/a/apple-airp/apple-airpods-pro-2_6x5k.3840.jpg"
+        },
+        {
+            "id": "p007",
+            "name": "Apple Watch Series 10",
+            "description": "Smartwatch with health tracking, fitness features and a sleek modern design.",
+            "price": 22999,
+            "image": "https://m.media-amazon.com/images/I/61NZWMhyHbL._AC_SX522_.jpg"
+        },
+        {
+            "id": "p008",
+            "name": "Samsung Galaxy Watch 7",
+            "description": "Smart fitness watch with advanced health monitoring and premium AMOLED display.",
+            "price": 10999,
+            "image": "https://www.lifewire.com/thmb/DxDSB8RU6R7ZzxR2yNUF_hft-Hs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/samsung-galaxy-watch-7-ultra-eccbcbe5aaf94a8eae58611c4f57eeda.jpg"
+        },
+        {
+            "id": "p009",
+            "name": "Canon EOS R6",
+            "description": "Professional mirrorless camera designed for photography and high-quality video.",
+            "price": 79999,
+            "image": "https://www.photosbydlee.com/wp-content/uploads/2020/12/Hi-Canon-1536x1024.jpg"
+        },
+        {
+            "id": "p010",
+            "name": "Sony Alpha A7 IV",
+            "description": "Full-frame mirrorless camera with excellent autofocus and video capabilities.",
+            "price": 89999,
+            "image": "https://thephotographyenthusiast.b-cdn.net/wp-content/uploads/2023/02/Hi-Sony-scaled.webp"
+        },
+        {
+            "id": "p011",
+            "name": "Logitech MX Master 3S",
+            "description": "Premium wireless mouse designed for productivity and creative workflows.",
+            "price": 4999,
+            "image": "https://resource.logitech.com/w_1206,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s-business-wireless-mouse/buy/mx-master-3s-business-product-callout.png?v=1"
+        },
+        {
+            "id": "p012",
+            "name": "Keychron K2",
+            "description": "Compact mechanical keyboard with wireless connectivity and RGB backlight.",
+            "price": 5499,
+            "image": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Keychron-K2-wireless-mechanical-keyboard-1.jpg?v=1691568322"
+        },
+        {
+            "id": "p013",
+            "name": "PlayStation 5",
+            "description": "Next-generation gaming console delivering immersive 4K gaming experiences.",
+            "price": 28999,
+            "image": "https://cdn.mos.cms.futurecdn.net/HkdMToxijoHfz4JwUgfh3G-1920-80.jpg"
+        },
+        {
+            "id": "p014",
+            "name": "Xbox Series X",
+            "description": "High-performance gaming console with fast loading and powerful graphics.",
+            "price": 26999,
+            "image": "https://t4.ftcdn.net/jpg/04/04/88/75/360_F_404887533_BpaO3OYF7uFhshAHuGdfAm5HAkr4nSip.jpg"
+        },
+        {
+            "id": "p015",
+            "name": "Nintendo Switch OLED",
+            "description": "Portable gaming console featuring a vibrant OLED display.",
+            "price": 17999,
+            "image": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_500/ncom/en_US/switch/videos/heg001-07060600/posters/oled-model"
+        },
+        {
+            "id": "p016",
+            "name": "Anker PowerCore 20K",
+            "description": "High-capacity portable power bank with fast charging support.",
+            "price": 2499,
+            "image": "https://sm.pcmag.com/pcmag_au/review/a/anker-powe/anker-powercore-ii-20000-review_46jf.jpg"
+        },
+        {
+            "id": "p017",
+            "name": "Belkin Wireless Charger",
+            "description": "Fast wireless charging pad with a compact and elegant design.",
+            "price": 1999,
+            "image": "https://cdn.mos.cms.futurecdn.net/9gcrzWSjZtQ3jaGQjUpj5E.jpg"
+        },
+        {
+            "id": "p018",
+            "name": "JBL Flip 6",
+            "description": "Portable Bluetooth speaker with powerful sound and water resistance.",
+            "price": 4999,
+            "image": "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwa6c67e23/pdp/JBL_Flip_6_Lifestyle_01_904x560px.png?sw=904&sh=560"
+        },
+        {
+            "id": "p019",
+            "name": "Bose SoundLink",
+            "description": "Premium portable speaker delivering rich and balanced audio.",
+            "price": 8999,
+            "image": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/1239686373001/90d964d8-6461-460d-8ea2-a25fdcc73b30/18d8235b-0d71-4664-b3e6-1212aa0b98e0/1280x720/match/image.jpg"
+        },
+        {
+            "id": "p020",
+            "name": "Amazon Echo Dot",
+            "description": "Compact smart speaker with voice assistant and smart home support.",
+            "price": 3499,
+            "image": "https://t3.ftcdn.net/jpg/06/83/60/16/360_F_683601603_qi8ZgXeiGS9Gzm2GFEhsIZZkVQV6ffKk.jpg"
+        },
+        {
+            "id": "p021",
+            "name": "GoPro HERO12",
+            "description": "Action camera built for high-quality outdoor and adventure recording.",
+            "price": 19999,
+            "image": "https://static0.pocketlintimages.com/wordpress/wp-content/uploads/wm/2023/10/gopro-hero-12-black-22-1.jpg?w=1600&h=900&fit=crop"
+        },
+        {
+            "id": "p022",
+            "name": "DJI Mini 4 Pro",
+            "description": "Compact professional drone with advanced imaging and intelligent flight features.",
+            "price": 56999,
+            "image": "https://cdn.mos.cms.futurecdn.net/mGxqeuzhjUJ3bgnMTk9oqT.jpg"
+        },
+        {
+            "id": "p023",
+            "name": "Kindle Paperwhite",
+            "description": "Premium e-reader with a high-resolution display and comfortable reading experience.",
+            "price": 7499,
+            "image": "https://content.mzadqatar.com/uploads/images/2026/09/28/94602739-0d5030f151.jpg"
+        },
+        {
+            "id": "p024",
+            "name": "Meta Quest 3",
+            "description": "Advanced virtual reality headset for gaming and immersive experiences.",
+            "price": 29999,
+            "image": "https://mixed-news.com/en/wp-content/uploads/2023/10/Quest-3-mit-Touch-Plus-Controllern.jpg"
+        },
+        {
+            "id": "p025",
+            "name": "Razer BlackWidow V4",
+            "description": "RGB mechanical gaming keyboard designed for competitive gaming.",
+            "price": 7999,
+            "image": "https://assets2.razerzone.com/images/pnx.assets/2eebfd7a585f70e30afa1bf2b242fa22/razer-blackwidow-v4-ogimage-1200x630.jpg"
+        },
+        {
+            "id": "p026",
+            "name": "Razer DeathAdder V3",
+            "description": "High-performance gaming mouse with an ergonomic lightweight design.",
+            "price": 3999,
+            "image": "https://cdn.mos.cms.futurecdn.net/jerTCgwTP2nbkyLZbK7GmW.jpg"
+        },
+        {
+            "id": "p027",
+            "name": "ASUS ROG Strix G16",
+            "description": "Powerful gaming laptop with high refresh-rate display and dedicated graphics.",
+            "price": 64999,
+            "image": "https://dlcdnwebimgs.asus.com/files/media/601ee339-f392-4b62-87c3-972107bda726/v1/img/performance/rog-strix-g-16-5080.png"
+        },
+        {
+            "id": "p028",
+            "name": "LG UltraGear 27",
+            "description": "Gaming monitor with smooth refresh rate and vibrant colors.",
+            "price": 13999,
+            "image": "https://www.lg.com/levant_en/images/monitors/md07584948/gallery/D_07.jpg"
+        },
+        {
+            "id": "p029",
+            "name": "Samsung 55\" QLED TV",
+            "description": "4K QLED smart television with vibrant colors and modern smart features.",
+            "price": 29999,
+            "image": "https://images.samsung.com/is/image/samsung/p6pim/us/qn55qef1afxza/gallery/us-qled-qef1-548500-qn55qef1afxza-547033845?$product-details-jpg$"
+        },
+        {
+            "id": "p030",
+            "name": "Dyson V15 Detect",
+            "description": "Premium cordless vacuum cleaner with powerful suction and smart dust detection.",
+            "price": 32999,
+            "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/leap-petite-global/products/floorcare/sticks/v15-detect/overview/03-V15-Counts-carousel_Machinebody-01_CORE-LB_M2-2.jpg?$responsive$&cropPathE=desktop&fit=stretch,1&wid=1920"
         }
     ],
     "carts": [
         {
             "userId": "299609",
             "products": [],
-            "id": "1003194"
-        },
-        {
-            "userId": "5630403",
-            "products": [],
-            "id": "3003227"
+            "id": "288782"
         }
     ],
     "orders": [
@@ -76,43 +281,18 @@
             "userId": "299609",
             "products": [
                 {
-                    "id": "1841837",
-                    "name": "Phone",
-                    "description": "Gaming Phone",
-                    "price": 2000,
-                    "image": "https://example.com/Phone.jpg",
-                    "quantity": 2
+                    "id": "p001",
+                    "name": "iPhone 15 Pro",
+                    "description": "Premium smartphone with advanced camera system and titanium design.",
+                    "price": 49999,
+                    "image": "https://media.512pixels.net/wp-content/uploads/2023/12/iphone-15-pro-max-natural.jpg",
+                    "quantity": 1
                 }
             ],
-            "total": 4000,
+            "total": 49999,
             "status": "pending",
-            "createdAt": "2026-09-25T14:12:04.666Z",
-            "id": "9251882"
-        },
-        {
-            "userId": "5630403",
-            "products": [
-                {
-                    "id": "64848",
-                    "name": "Laptop",
-                    "description": "Gaming laptop",
-                    "price": 3000,
-                    "image": "https://example.com/laptop.jpg",
-                    "quantity": 2
-                },
-                {
-                    "id": "2032379",
-                    "name": "Mouse",
-                    "description": "Gaming Mouse",
-                    "price": 200,
-                    "image": "https://example.com/Mouse.jpg",
-                    "quantity": 2
-                }
-            ],
-            "total": 6400,
-            "status": "pending",
-            "createdAt": "2026-09-25T14:24:02.577Z",
-            "id": "4697951"
+            "createdAt": "2026-10-06T08:37:21.852Z",
+            "id": "9527051"
         }
     ]
 }
